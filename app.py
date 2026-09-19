@@ -6,7 +6,7 @@ def home():
     return '''
     <html>
     <head>
-        <title>Afaq Anwar Afghan - Portfolio</title>
+        <title>Afaq Anwar - Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body style="margin:0; padding:0; font-family: Arial, sans-serif; background:#ffffff; text-align:center;">
@@ -17,9 +17,9 @@ def home():
 
             <h1 style="font-size:36px; margin-top:25px; margin-bottom:10px; color:#111;">Welcome to My Website</h1>
             
-            <h2 style="font-size:24px; color:#333; margin-top:10px;">I am Afaq Anwar Afghan</h2>
+            <h2 style="font-size:24px; color:#333; margin-top:10px;">I am Afaq Anwar</h2>
             
-            <p style="font-size:16px; color:#555; margin-top:15px;">Web Developer | My Website is LIVE!</p>
+            <p style="font-size:16px; color:#555; margin-top:15px;">Web Developer</p>
             
             <a href="#" style="display:inline-block; margin-top:25px; background:#0d6efd; color:white; padding:12px 30px; text-decoration:none; border-radius:25px; font-weight:bold; font-size:16px;">Hire Me</a>
             
