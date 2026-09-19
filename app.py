@@ -7,7 +7,7 @@ def home():
     <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Afaq Anwar</title>
+        <title>Afaq Anwar Afghan</title>
         <style>
             body{margin:0; font-family:'Segoe UI', Arial; background:#fff; color:#111;}
             .top{padding:60px 8%; background:#fff; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;}
@@ -16,7 +16,7 @@ def home():
             .main-heading{font-size:50px; font-weight:800; line-height:1.2; margin:10px 0; color:#1a1a1a;}
             .sub-text{color:#444; font-size:18px; margin-top:15px;}
             .hire-btn{display:inline-block; margin-top:25px; background:#0d6efd; color:white; padding:12px 28px; border-radius:25px; text-decoration:none; font-weight:600;}
-            .profile-pic{width:200px; height:200px; border-radius:50%; border:4px solid #0d6efd; object-fit:cover; box-shadow:0 4px 15px rgba(0,0,0,0.1);}
+            .profile-pic{width:200px; height:200px; border-radius:50%; border:4px solid #0d6efd; object-fit:cover;}
             .skills-section{background:#f7f7f5; padding:40px 8%; text-align:center;}
             .skills-title{font-size:26px; font-weight:700; margin-bottom:30px;}
             .cards{display:flex; justify-content:center; gap:20px; flex-wrap:wrap;}
@@ -26,8 +26,8 @@ def home():
             .contact-section{padding:50px 8%; background:#fff; text-align:center;}
             .contact-title{font-size:30px; font-weight:800; margin-bottom:30px;}
             .form-box{display:flex; justify-content:center; gap:20px; flex-wrap:wrap;}
-            .input-field{width:350px; padding:18px; border-radius:12px; border:1px solid #ccc; font-size:16px; outline:none;}
-            .send-btn{margin-top:25px; background:#0d6efd; color:white; padding:14px 40px; border:none; border-radius:25px; font-size:16px; font-weight:600; cursor:pointer;}
+            .input-field{width:350px; padding:18px; border-radius:12px; border:1px solid #ddd; font-size:16px; outline:none;}
+            .submit-btn{margin-top:25px; background:#00c853; color:white; padding:14px 45px; border:none; border-radius:25px; font-size:17px; font-weight:700; cursor:pointer;}
             .whatsapp-float{position:fixed; width:62px; height:62px; bottom:22px; right:22px; background:#25d366; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 10px rgba(0,0,0,0.3); z-index:999;}
             .whatsapp-float img{width:36px; height:36px;}
         </style>
@@ -58,7 +58,7 @@ def home():
                 <input id="msg" class="input-field" type="text" placeholder="write your massage here">
                 <input id="num" class="input-field" type="text" placeholder="write your whatsapp number here">
             </div>
-            <button class="send-btn" onclick="sendWhatsApp()"submit"</button>
+            <button class="submit-btn" onclick="sendWhatsApp()">Submit</button>
         </div>
 
         <a href="https://wa.me/923160969006" class="whatsapp-float" target="_blank">
@@ -69,7 +69,7 @@ def home():
         function sendWhatsApp(){
             var m = document.getElementById('msg').value;
             var n = document.getElementById('num').value;
-            var text = "Order: " + m + " | My Number: " + n;
+            var text = "Message: " + m + " | My Number: " + n;
             window.open("https://wa.me/923160969006?text=" + encodeURIComponent(text), "_blank");
         }
         </script>
