@@ -60,7 +60,7 @@ def home():
         </div>
 
         <div class="contact-section" id="order">
-            <div class="contact-title">Mujh se Rabta Karo / Order Do</div>
+            <div class="contact-title">For any quries</div>
             <div class="form-box">
                 <input id="msg" class="input-field" type="text" placeholder="write your massage here">
                 <input id="num" class="input-field" type="text" placeholder="write your whatsapp number here">
