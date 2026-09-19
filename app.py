@@ -27,7 +27,7 @@ def home():
     </head>
     <body>
         <div style="display:flex; align-items:center; justify-content:center; gap:40px; padding:50px 20px; background:white; flex-wrap:wrap;">
-  <img src="/static/afaq.jpg" style="width:250px; height:250px; border-radius:50%; object-fit:cover;">
+  <img src="afaq.jpg"
     <div>
     <p style="color:#2a5bd7; font-weight:bold;">Welcome to My Website!</p>
     <h1 style="font-size:38px; margin:10px 0;">Let's Build Something Amazing Together</h1>
