@@ -7,7 +7,14 @@ def home():
     <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Afaq Anwar Afghan</title>
+        <title>Afaq Anwar Afghan - Web Developer | Portfolio</title>
+        <meta name="description" content="I am Afaq Anwar Afghan - Professional Web Developer from Peshawar. I build modern websites, Python bots, and logos. Contact me on WhatsApp 03160969006">
+        <meta name="keywords" content="Afaq Anwar Afghan, Afaq Afghan, Web Developer Peshawar, Python Developer, Flask Developer">
+        <meta name="author" content="Afaq Anwar Afghan">
+        <meta property="og:title" content="Afaq Anwar Afghan - Portfolio">
+        <meta property="og:description" content="Let's Build Something Amazing Together - Web Developer">
+        <meta property="og:image" content="https://github.com/afaqanwarafghan.png">
+
         <style>
             body{margin:0; font-family:'Segoe UI', Arial; background:#fff; color:#111;}
             .top{padding:60px 8%; background:#fff; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;}
@@ -76,6 +83,17 @@ def home():
     </body>
     </html>
     """
+
+@app.route('/robots.txt')
+def robots():
+    return "User-agent: *\nAllow: /\nSitemap: https://afaq-anwar-afghan.onrender.com/sitemap.xml"
+
+@app.route('/sitemap.xml')
+def sitemap():
+    return """<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url><loc>https://afaq-anwar-afghan.onrender.com/</loc></url>
+    </urlset>""", 200, {'Content-Type': 'application/xml'}
 
 if __name__ == '__main__':
     app.run()
