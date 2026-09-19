@@ -58,7 +58,7 @@ def home():
                 <input id="msg" class="input-field" type="text" placeholder="write your massage here">
                 <input id="num" class="input-field" type="text" placeholder="write your whatsapp number here">
             </div>
-            <button class="send-btn" onclick="sendWhatsApp()"submit</button>
+            <button class="send-btn" onclick="sendWhatsApp()"submit"</button>
         </div>
 
         <a href="https://wa.me/923160969006" class="whatsapp-float" target="_blank">
